@@ -26,6 +26,8 @@ class MainActivity : BaseActivity() {
 
         myViewPager.adapter = mvpa
 
+        myTabLayout.setupWithViewPager(myViewPager)
+
     }
 
 }
